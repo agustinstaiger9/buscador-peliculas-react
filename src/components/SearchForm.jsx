@@ -1,8 +1,5 @@
 import { useState } from 'react';
 
-
-
-
 function SearchForm({ setMovies, setLoading }) {
   const [query, setQuery] = useState('');
 
